@@ -1,16 +1,16 @@
-import React, { Fragment } from "react";
+import React from "react";
 
-const Videos = (props) => {
-    const { title, embededVideos, rating } = props.Video;
+const Video = (props) => {
+    const { title, embededVideos, rating } = props.video;
     return (
-        <Fragment>
+        <>
             <h2>{title}</h2>
             <p>Number of Votes: {rating}</p>
             <button>Up Votes</button>
             <button>Down Votes</button>
             <hr/>
-        </Fragment>
+        </>
     );
 };
 
-export default Videos;
+export default Video;
