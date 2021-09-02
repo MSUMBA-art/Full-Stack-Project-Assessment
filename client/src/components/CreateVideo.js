@@ -2,7 +2,7 @@ import React from 'react';
 
 const CreateVideo = (props) => {
     return (
-        <React.Fragment>
+        <>
             <h2>Create a new Video</h2>
             <form>
             <label>Title</label>
@@ -15,7 +15,7 @@ const CreateVideo = (props) => {
             </form>
             
             <hr/>
-        </React.Fragment>
+        </>
     );
 };
 
